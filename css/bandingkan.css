@@ -1,0 +1,88 @@
+.wrap-compare p {
+    color: #6c757d;
+}
+.wrap-compare .card-columns .card {
+    height: 100%;
+    position: relative;
+    padding-bottom: 80px;
+}
+.bandingkan-harga-section .btn.btn-pesan {
+    /* margin-bottom: 0;
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+.wrap-compare .list-harga {
+    width: 100%;
+    /* margin-bottom: 48px; */
+}
+.wrap-compare .card-body {
+    padding: 15px;
+}
+
+/*background colour*/
+.cover{
+	background-color: #38319E;
+	-webkit-animation: color 10s ease-in  0s infinite alternate running;
+	-moz-animation: color 10s linear  0s infinite alternate running;
+    animation: color 10s linear  0s infinite alternate running;
+    /* height: 100%;
+    max-height: 545px; */
+}
+
+.wrap-list-pakets .main {
+    overflow-x: scroll;
+}
+.price-table tr td {
+    border-left: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+span.price {
+    color: #FFB74B;
+}
+
+/* Animasi + Prefix untuk browser */
+@keyframes color {
+    0% { background-color: #38319E; }
+    16.7% { background-color: #03A9F4; }
+    33.3% { background-color: #F06292; }
+    50% { background-color: #9C27B0; }
+    66.7% { background-color: #FFC107; }
+    83.4% { background-color: #FF7E0D; }
+    100% { background-color: #D32F2F; }
+}
+@-moz-keyframes color {
+    0% { background-color: #38319E; }
+    16.7% { background-color: #03A9F4; }
+    33.3% { background-color: #F06292; }
+    50% { background-color: #9C27B0; }
+    66.7% { background-color: #FFC107; }
+    83.4% { background-color: #FF7E0D; }
+    100% { background-color: #D32F2F; }
+}
+@keyframes color {
+    0% { background-color: #38319E; }
+    16.7% { background-color: #03A9F4; }
+    33.3% { background-color: #F06292; }
+    50% { background-color: #9C27B0; }
+    66.7% { background-color: #FFC107; }
+    83.4% { background-color: #FF7E0D; }
+    100% { background-color: #D32F2F; }
+}
+
+@media screen and (min-width: 576px) {
+    .card-columns {
+        column-count: 0;
+        -webkit-column-gap: 0;
+        -moz-column-gap: 0;
+        column-gap: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .image-package {
+        margin: 0 0 32px;
+        max-width: none;
+    }
+}

@@ -1,0 +1,679 @@
+.select2.select2-container {
+    top: -33px;
+    left: 22%;
+    border-left: 1px solid #6c757d;
+}
+
+#myTab .nav-link:hover {
+    color: #1f74bd !important;
+}
+
+.text-coret {
+    text-decoration: line-through;
+}
+
+.text-orange-1 {
+    color:#FFB74B;
+}
+
+.text-coret > span {
+    font-size: inherit !important ;
+}
+
+
+.navbar {
+    background-image: linear-gradient(to right,rgb(247 77 239/60%),rgb(31 116 189/60%)) !important;
+}
+.pesan-banner {
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+.wrapper-step-indicator {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.steps {
+    width: 120px;
+    margin: 0 18px;
+    text-align: center;
+    color: #9E9E9E;
+}
+.steps.completed-step {
+    color: #1f74bd;
+}
+.circle-step {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border: 2px solid #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 12px;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+}
+.completed-step .circle-step {
+    background: #1f74bd;
+    border: 2px solid #1f74bd;
+    color: #fff;
+}
+.circle-step:before {
+    content: '';
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    width: 156px;
+    height: 2px;
+    background: #C4C4C4;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+.steps.completed-step .circle-step:before {
+    background: #1f74bd;
+}
+.steps:first-child .circle-step:before {
+    display: none;
+}
+.text-step {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+#accordionTemplate .card-header {
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 0;
+}
+.title-acc-blue {
+    background: #1f74bd;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+#tabs-package.ui-widget.ui-widget-content {
+    padding: 48px 0;
+    margin-top: -28px;
+    position: relative;
+    z-index: 0;
+}
+#tabs-package.ui-tabs {
+    box-shadow: 0px 0 6px rgba(0, 0, 0, 0.15);
+    background: #f1f1f1;
+    border-radius: 0px 0px 12px 12px;
+}
+#tabs-package.ui-tabs .ui-tabs-panel {
+    box-shadow: none;
+    border-radius: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-size: 40%;
+}
+#accordionTemplate .card {
+    border: none;
+    box-shadow: none;
+}
+#pilih-template .accordion .card {
+    margin-bottom: 48px;
+}
+#pilih-template .accordion .card-header h2 {
+    box-shadow: 0px 0 6px rgba(0, 0, 0, 0.15);
+    border: 1px solid #929292;
+    border-radius: 12px;
+    background: #1f74bd;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    cursor: pointer;
+}
+#pilih-template .accordion .card-header h2.collapsed {
+    background: #FFFFFF;
+    color: #888;
+}
+
+#pilih-template .accordion .card-header h2.collapsed:hover {
+    background: #1f74bd;
+    color: #fff;
+}
+
+.header-pesan-template {
+    justify-content: space-between;
+    padding: 20px 16px 0;
+}
+.search-template-pesan {
+    position: relative;
+}
+.search-template-pesan:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 30px;
+    top: 0;
+    background: #ff7e0d;
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    border-right: 1px solid #C4C4C4;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.search-template-pesan input {
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    width: 300px;
+    padding: 3px 16px;
+    font-size: 18px;
+    line-height: 21px;
+    height: 30px;
+}
+.search-template-pesan .fa-search {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    color: #fff;
+    top: 5px;
+    right: 15px;
+}
+#accordionTemplate .form-control {
+    width: 100%;
+}
+#accordionTemplate #inputURL {
+    max-width: 335px;
+}
+.url-error {
+    color: #F44336;
+    margin: 8px 0 0;
+    max-width: 335px;
+    display: none;
+}
+#pilih-template label {
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+.modal-backdrop.show {
+       display: none;
+}
+.modal-open .modal {
+    background: rgba(0,0,0,.55);
+}
+.checkcontainer {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border: 2px solid #888888;
+}
+.checkcontainer input:checked ~ .checkmark {
+    background-color: #fff;
+    border: 2px solid #FF7E0D;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkcontainer .checkmark:after {
+    left: 2px;
+    top: -1px;
+    width: 6px;
+    height: 10px;
+    border: solid #FFB74B;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.checkcontainer input:checked ~ .checkmark:after {
+    display: block;
+}
+.upload-files {
+    padding: 5px 15px;
+    border: 1px inset;
+    border-radius: 5px;
+    max-width: 100%;
+    border-color: rgba(240, 240, 240, 0.2);
+    background: #f0f0f0;
+    display: block;
+}
+
+/* Metode Pembayaran */
+.wrap-form-metode {
+    padding: 20px 16px 0;
+    margin-bottom: 42px;
+}
+.login-metode {
+    display: block;
+    width: 100%;
+    padding: 20px 24px;
+    border: 1px solid #1f74bd;
+    border-left: 10px solid #1f74bd;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.link-underline {
+    text-decoration: underline;
+}
+.wrap-billing {
+    padding: 0 15px;
+    margin-top: 40px;
+    margin-bottom: 42px;
+    display: none;
+}
+.wrap-bank {
+    padding: 0 16px;
+}
+.bank-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.checkBank {
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 25%;
+    padding: 15px;
+    margin: 0;
+}
+.checkBank input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkBank .radiobtn {
+    width: 100%;
+    border: 2px solid #888888;
+    height: 100px;
+    display: block;
+    border-radius: 8px;
+    background-size: calc(100% - 30px);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(1);
+    transition: .3s ease;
+}
+.checkBank input:checked ~ .radiobtn {
+    border-color: #1f74bd;
+    filter: grayscale(0);
+}
+/* bank */
+.bca {
+    background-image: url(../img/payment/bca.png);
+}
+.indodana {
+    background-image: url(../img/payment/logo-indodana.png);
+}
+.mandiri {
+    background-image: url(../img/payment/mandiri.png);
+}
+.danamon {
+    background-image: url(../img/payment/danamon.png);
+}
+.cimb {
+    background-image: url(../img/payment/cimb.png);
+}
+.permata {
+    background-image: url(../img/payment/permata.png);
+}
+.bii {
+    background-image: url(../img/payment/bii.png);
+}
+.jcb {
+    background-image: url(../img/payment/jcb.png);
+}
+.keb-Hana {
+    background-image: url(../img/payment/keb-hana.jpg);
+}
+.atm-bersama {
+    background-image: url(../img/payment/atm-bersama.png);
+}
+.mastercard {
+    background-image: url(../img/payment/mastercard.png);
+}
+.visa {
+    background-image: url(../img/payment/visa.png);
+}
+.indomaret {
+    background-image: url(../img/payment/indomaret.png);
+}
+.alfamart {
+    background-image: url(../img/payment/alfa.png);
+}
+.gopay {
+    background-image: url(../img/payment/gopay.png);
+}
+.ovo {
+    background-image: url(../img/payment/ovo.png);
+}
+.doku {
+    background-image: url(../img/payment/doku.jpg);
+}
+
+.bank_transfer {
+    background-image: url(../img/payment/bank_transfer.png);
+}
+
+.bri {
+    background-image: url(../img/payment/bri.png);
+    background-size: calc(100% - 150px) !important; 
+}
+
+.bni {
+    background-image: url(../img/payment/bni.png);
+}
+
+.wrapp-total {
+    width: 100%;
+    background: #F1F1F0;
+    border: 1px solid #888;
+    margin-bottom: 48px;
+}
+.wrapp-total th, .wrapp-total td {
+    padding: 15px;
+    border-bottom: 1px solid #888;
+}
+.wrapp-total td:first-child{
+    width: 25%;
+}
+#total-pesanan {
+    margin-top: 42px;
+}
+.btn-pesan-full {
+    padding: 15px;
+    background: #ff7e0d;
+    border-radius: 0;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    position: relative;
+    border: none;
+}
+.btn-pesan-full:before {
+    content: '';
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.3);
+    transition: ease .3s;
+}
+.btn-pesan-full:hover {
+    color: #fff;
+}
+.btn-pesan-full:hover:before {
+    width: 100%;
+}
+.card-confirm {
+    padding: 48px 32px;
+    margin-top: -28px;
+    margin-bottom: 48px;
+    box-shadow: 0px 0 6px rgba(0, 0, 0, 0.15);
+    background: #f1f1f1;
+    border-radius: 0px 0px 12px 12px;
+}
+.card-confirm .form-control, .card-confirm .upload-files {
+    background: transparent;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.section-pesan {
+    display: none;
+}
+#package-section.section-pesan {
+    display: block;
+}
+.btn-next-back {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-next-back .btn {
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    width: 150px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn-next-back .btn.disable-btn {
+    cursor: not-allowed;
+}
+.back-step {
+    background: #a55bdc;
+}
+.back-step:before {
+    content: '<<';
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%) translateX(-300%);
+    transition: .3s ease-in-out;
+}
+.back-step:hover:before {
+    transform: translateY(-50%) translateX(0);
+}
+.next-step {
+    background: #FFB74B;
+}
+.next-step:before {
+    content: '>>';
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%) translateX(300%);
+    transition: .3s ease-in-out;
+}
+.next-step.btn-confirm:before {
+    display: none;
+}
+.next-step:hover:before {
+    transform: translateY(-50%) translateX(5px);
+}
+.btn-next-back .btn:hover {
+    box-shadow: none;
+}
+#bukti-bayar, .upload-img {
+    margin-top: 8px;
+    opacity: 0;
+    max-width: 100%;
+    max-height: 320px;
+    position: absolute;
+    top: 0;
+    left: -200%;
+}
+#bukti-bayar.haveImage, .upload-img.haveImage {
+    opacity: 1;
+    position: relative;
+    top: unset;
+    left: unset;
+}
+.bankRek{
+    display: none;
+}
+.default-bank{
+    display: block;
+}
+#payment-Method, #bankName {
+    /*text-transform: uppercase;*/
+}
+
+/* animation */
+.pesan-banner {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1), opacity .3s .25s ease-out;
+    will-change: transform, opacity;
+}
+.pesan-banner.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.section-pesan {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1), opacity .3s .25s ease-out;
+    will-change: transform, opacity;
+}
+.section-pesan.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.loading-pesan {
+    position: fixed;
+    z-index: -1;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out .5s;
+}
+.loading-pesan.klik-kirim {
+    z-index: 9999;
+    opacity: 1;
+}
+
+.bank_label {
+    width:100% !important;
+}
+
+.btn-mengerti {
+    background: #a55bdc;
+    color: #fff;
+}
+.btn-mengerti:hover {
+    background: #9a51d0;
+    color: #fff;
+}
+.btn-toindodana {
+    background: #FFB74B;
+    color: #fff;
+}
+.btn-toindodana:hover {
+    background: #efac47;
+    color: #fff;
+}
+.list-harga li {
+    margin: 6px 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .pesan-banner {
+        padding-top: 170px;
+        padding-bottom: 70px;
+    }
+    #tabs-package.ui-tabs .ui-tabs-panel {
+        padding: 15px;
+    }
+    .header-pesan-template {
+        flex-wrap: wrap;
+    }
+    .title-section.small-title-section {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .search-template-pesan {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .search-template-pesan input {
+        width: 100%;
+    }
+    #pilih-template label {
+        text-align: left;
+    }
+    #accordionTemplate .card-header {
+        background: transparent;
+    }
+    #pilih-template .accordion .card:last-child {
+        margin-bottom: 24px;
+    }
+    .checkBank {
+        width: 50%;
+    }
+    .circle-step:before {
+        width: 115px;
+    }
+    .text-step {
+        font-size: 14px;
+    }
+    #pilih-template .accordion .card-header h2 {
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .pesan-banner {
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+    .steps {
+        width: 66px;
+        margin: 0 8px;
+    }
+    .circle-step {
+        width: 50px;
+        height: 50px;
+    }
+    .text-step {
+        font-size: 11px;
+    }
+    .circle-step:before {
+        width: 80px;
+    }
+    .checkBank .radiobtn {
+        height: 70px;
+    }
+    .btn-next-back {
+        display: block;
+    }
+    .btn-next-back .btn {
+        width: 100%;
+        margin-top: 16px;
+    }
+    .header-pesan-template {
+        padding: 20px 0 0;
+    }
+    #pilih-template .accordion .card-header h2 {
+        padding: 8px;
+    }
+    .table-summary {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+}

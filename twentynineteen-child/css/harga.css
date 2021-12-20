@@ -1,0 +1,266 @@
+.card-body p {
+    font-weight: normal;
+}
+.text-promo {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FC9326;
+}
+.text-orange {
+    color: #FC9326 !important;
+}
+.text-dark {
+    color: #171717 !important;
+}
+.text-18 {
+    font-size: 18px;
+}
+.text-blue {
+    color: #00649C !important;
+}
+.text-muted {
+    color: #637178 !important;
+    font-size: 16px;
+}
+.text-lime {
+    color: #ffbe42 !important;
+}
+.wrapper-harga {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.juta {
+    font-weight: bold;
+}
+.rp {
+    position: relative;
+    top: -10px;
+}
+.nominal {
+    font-weight: bold;
+    color: #0D0938;
+}
+.harga-normal {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.harga-normal:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #0D0938;
+    transform: rotate(-23deg);
+}
+.harga-normal .rp {
+    font-size: 10px;
+}
+.harga-normal .nominal {
+    font-size: 24px;
+}
+.harga-normal .juta {
+    font-size: 10px;
+}
+.wrapper-promo {
+    display: flex;
+    align-items: center;
+}
+.harga-promo .rp {
+    font-size: 18px;
+}
+.harga-promo .nominal {
+    font-size: 64px;
+    line-height: 1;
+}
+.harga-promo .juta {
+    font-size: 18px;
+}
+.list-harga li {
+    margin: 16px 0;
+    font-weight: normal;
+    color: #637178;
+}
+.list-harga {
+    margin-bottom: 50px;
+}
+.btn-fill {
+    color: #fff;
+    font-weight: normal;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 32px;
+    border: 2px solid;
+    display: inline-block;
+}
+.purple-fill {
+    background: #4950DE;
+    border-color: #4950DE;
+    transition: .3s ease;
+    text-decoration: none;
+}
+.purple-fill:hover {
+    background: #fff;
+    color: #4950DE;
+    text-decoration: none;
+}
+.orange-fill {
+    background: #FC9326;
+    border-color: #FC9326;
+    transition: .3s ease;
+    text-decoration: none;
+}
+.orange-fill:hover {
+    background: #fff;
+    color: #FC9326;
+    text-decoration: none;
+}
+.dark-fill {
+    background: #171717;
+    border-color: #171717;
+    transition: .3s ease;
+    text-decoration: none;
+}
+.dark-fill:hover {
+    background: #fff;
+    color: #171717;
+    text-decoration: none;
+}
+.lime-fill {
+    background: #ffbe42;
+    border-color: #ffbe42;
+    transition: .3s ease;
+    text-decoration: none;
+}
+.lime-fill:hover {
+    background: #fff;
+    color: #ffbe42;
+    text-decoration: none;
+}
+
+/* mobile pricing */
+#mobile-pricing .carousel-item {
+    height: 100%;
+}
+.card:focus {
+    outline: none !important;
+}
+
+.slick-dots li button:before {
+    font-size: 25px;
+    line-height: 25px;
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+    color: #E6E6E6;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #FB8700;
+}
+.slick-dots {
+    bottom: -7px;
+}
+.custom-harga-title {
+    font-size: 18px;
+    margin: 20px auto;
+    display: block;
+    font-style: italic;
+}
+.wrapper-harga-custom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.wrapper-harga-custom .nominal {
+    font-size: 5em;
+    line-height: 1;
+}
+
+@media screen and (max-width: 1199px) {
+    .harga-promo .nominal {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .wrapper-harga {
+        display: block;
+    }
+    .harga-normal {
+        margin-right: 0;
+        justify-content: center;
+    }
+    .harga-promo {
+        margin-top: 16px;
+    }
+    .harga-promo div {
+        text-align: center;
+    }
+    .wrapper-promo {
+        justify-content: center;
+    }
+    .harga-normal:before {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-columns {
+        display: flex;
+    }
+    .card-columns .card {
+        margin-right: 30px
+    }
+    .card-columns .card:last-child {
+        margin-right: 0;
+    }
+    .card-columns .btn-fill {
+        position: absolute;
+        width: calc(100% - 2.5rem);
+        left: 1.25rem;
+        bottom: 0;
+    }
+    .card-columns .list-harga {
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .card-columns {
+        -webkit-column-count: 1 !important;
+        -moz-column-count: 1 !important;
+        column-count: 1 !important;
+    }
+    .harga-normal:before {
+        width: 75px;
+    }
+    .wrapper-harga {
+        margin-top: 20px;
+    }
+    .daftar-harga-section .card {
+        border: 1px solid rgba(0,0,0,.125);
+        margin-bottom: 2rem !important;
+    }
+    .card-columns.slick-slider .card {
+        min-height: 1460px;
+        position: relative;
+    }
+    .card-columns.slick-slider .btn-fill {
+        position: absolute;
+        width: calc(100% - 2.5rem);
+        left: 1.25rem;
+        bottom: 0;
+    }
+    .harga-promo .nominal {
+        font-size: 5em;
+    }
+}
+@media screen and (max-width: 375px) {
+    .card-columns.slick-slider .card {
+        min-height: 1555px;
+    }
+}

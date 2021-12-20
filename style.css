@@ -1,0 +1,193 @@
+/*
+Theme Name: twentynineteen Child
+Theme URI: http://bikin.website/template/
+description: >-
+  twentynineteen Child Theme
+Author: Qwords
+Author URI: 
+Template: twentynineteen
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: twentynineteen-child
+*/
+/* @import url("../twentynineteen/style.css"); */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+p {
+  font-weight: lighter;
+}
+
+/*****========REUSABLE COMPONENTS=========*****/
+/*---------Menu Section (blue) -----------*/
+/*to place navbar sticky on the top*/
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  min-height: 0;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #F74DEF, #1f74bd);
+  padding: 10px !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.logo .navbar-brand {
+  margin-left: 50px;
+}
+
+.navbar-brand img {
+  margin-left: 0;
+  /* height: 60px; */
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: rgba(255,255,255,.55) !important;
+  font-weight: 10 !important;
+  float: right;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: lighter !important;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.btn.btn-danger.navbar-btn {
+  /* margin: 8px 8px; */
+  width: 110px;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background-color: #0c0a29;
+  font-weight: lighter !important;
+  float: right;
+}
+
+.btn.btn-danger.navbar-btn:hover {
+  background-color: #fb8700;
+  border-color: #fb8700;
+}
+
+.navbar-btn:hover,
+.btn.btn-danger.navbar-btn.white-nav:hover {
+  border-color: #fb8700;
+  background-color: #fb8700;
+  color: white !important;
+  box-shadow: none;
+}
+
+.navbar-btn:focus {
+  box-shadow: none;
+}
+
+.navbar-btn active {
+  background-color: #fba200 !important;
+  box-shadow: none;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 25px !important;
+  font-weight: 5px;
+}
+
+#indo-flag {
+  width: 19.63px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+/*****===============WP PAGE==================*****/
+.entry-title {
+  display: none;
+}
+
+.contact-info {
+  font-weight: 100;
+  margin-bottom: 8px;
+}
+.contact-info svg.svg-inline--fa {
+  width: 20px;
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+
+#partner .owl-carousel .owl-stage {
+  margin: auto;
+}
+
+.powered-by {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-align: right;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: static;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  p,
+  div {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo .navbar-brand {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .contact-info {
+    margin-bottom: 8px;
+  }
+  .contact-info a {
+    line-height: 1.7;
+  }
+  .banner-slider {
+    margin-top: 24px;
+  }
+  .navbar {
+    padding: 15px 10px !important;
+  }
+  
+  #nav-bar .navbar-brand img{
+    /* height: 50px; */
+  }
+  
+  .logo {
+    margin-bottom: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+}

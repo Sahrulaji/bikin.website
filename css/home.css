@@ -1,0 +1,140 @@
+section#banner {
+    position: relative;
+    background-image: url(../img/banner-new.png);
+    background-image: url(../img/banner-new.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.overlay-banner {
+    position: absolute;
+    z-index: 0;
+    opacity: .75;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #1f74bd;
+    background-image: linear-gradient(to right, #F74DEF, #1f74bd);
+}
+#banner .row.cover-page {
+    margin-bottom: 0;
+}
+.navbar-nav li.nav-item .nav-link.active {
+    border-bottom: none;
+    color: #fff !important;
+}
+.navbar-nav .nav-item:first-child .nav-link.active {
+    color: #FFB74B !important;
+    border-bottom: 1px solid #FFB74B;
+}
+.owl-carousel .owl-item img {
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+#partner .owl-carousel .owl-item img {
+    min-height: 50px;
+}
+#partner .owl-carousel .owl-item .logo-company-name {
+    margin-bottom: 0;
+    background: transparent;
+    padding: 0;
+    font-size: 14px;
+}
+
+.partner-list {
+    display: flex;
+    justify-content: center;
+}
+.partner-list li {
+    margin: 0 20px;
+    text-align: center;
+}
+.partner-list li img {
+    max-width: 100px;
+}
+.partner-list li h6 {
+    margin-bottom: 0;
+    font-weight: 600;
+    margin-top: 8px;
+    color: #212529;
+}
+
+.link-package {
+    color: #fff;
+    font-weight: 600;
+}
+.link-package:hover {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.list-harga {
+    width: 100% !important;
+}
+.custom p.grey {
+    color: #637178;
+}
+.content-package {
+    padding: 0 15px 30px;
+}
+.tagline-paket {
+    font-size: 17px;
+    font-weight: 600;
+    /* height: 65px; */
+    height: 50px;
+    text-align: center;
+}
+.desc-paket {
+    /* height: 170px; */
+    height: 85px;
+    text-align: center;
+}
+.price-paket {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+}
+h4.perpanjangan {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 24px;
+    /* min-height: 40px; */
+}
+.content-package .list-harga {
+    height: 310px;
+}
+.card.pricing-box {
+    border: 1px solid #2d3690;
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: .3s ease;
+}
+.wrap-list-pakets .card.pricing-box {
+    margin-bottom: 36px;
+}
+.title-column.same-high-title {
+    height: 57px;    
+}
+span.price {
+    color: #FFB74B;
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (max-width: 767px) {
+    .title-column.same-high-title {
+        height: auto;
+    }    
+}
+
+@media (min-width: 576px) {
+    .corporate p {
+        font-size: 14px;
+    }
+}
